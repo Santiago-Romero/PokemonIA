@@ -1,0 +1,14 @@
+-Ataques
+Id,Nombre,Tipo,Potencia,Precision
+-Pokemon
+Id,Nombre,Tipo1,Tipo2,PS,Ataque,Defensa
+-Tipos
+Id,Nombre
+
+Daño=0.01*E*V*((((0.2+1)*A*P)/(25*D))+2)
+A=Pokemon.Ataque
+D=Pokemon.Defensa
+P=Ataques.Potencia
+V=Ataques.Precision
+B=Si son iguales de algun tipo 1.5
+E=el valor de la matriz esa
